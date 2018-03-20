@@ -189,7 +189,7 @@ if __name__=='__main__':
                         #textPrint.print_("JOYBUTTONUP")
                         plane.gunDict[k].release()
                         #plane.gunDict[k].print_()
-                elif k == RESET_KEY:
+                elif k == (RESET_JOYSTICK, RESET_BUTTON):
                     plane.resetGuns()
         textPrint.reset()
         textPrint.print_( plane.print_())
